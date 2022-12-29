@@ -38,7 +38,8 @@ Similarly can be done for other set cover datasets
 
 For Indset with affinity 4 and number of nodes 750 use
 * `python scripts/Cont_generate_instances.py indsetnewba --affinity 4 --indnodes 750` 
-For other affinities and size:
+
+For other affinities and size for IndSet:
 * `python scripts/Cont_generate_instances.py indsetnewba --affinity 4 --indnodes 500` 
 * `python scripts/Cont_generate_instances.py indsetnewba --affinity 4 --indnodes 450`
 
