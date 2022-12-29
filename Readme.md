@@ -52,11 +52,11 @@ For other affinities and size for IndSet:
 
 ## Generating training samples
 
-To generate training sample for setcover problem with density 0.05 use
+To generate training sample for setcover problem with edge-density 0.05 use
 
 * ` python Cont_generate_dataset.py setcover_densize --density 0.05 -j 20`
 
-Similarly for other instances in set cover
+Similarly for other instances in set cover( with different densities)
 * ` python Cont_generate_dataset.py setcover_densize --density 0.05 -j 20`
 * ` python Cont_generate_dataset.py setcover_densize --density 0.075 -j 20`
 * ` python Cont_generate_dataset.py setcover_densize --density 0.1 -j 20`
@@ -65,7 +65,7 @@ Similarly for other instances in set cover
 * ` python Cont_generate_dataset.py setcover_densize --density 0.2 -j 20`
 
 
-For other problems such as independent set use:
+For other problems such as independent set(with different affinities and number of nodes), use below commands:
 * ` python Cont_generate_dataset.py indsetnewba --affinity 4  --indnodes 750 -j 20`
 * ` python Cont_generate_dataset.py indsetnewba --affinity 4  --indnodes 500 -j 20`
 * ` python Cont_generate_dataset.py indsetnewba --affinity 4  --indnodes 450 -j 20`
