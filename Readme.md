@@ -24,7 +24,7 @@ scikit-learn==0.20.2
 ```
 
 ## Generating training instances
-* To generate dataset for Set Cover(SC) problem with edge density 0.05 SC_0.05 run:
+* To generate dataset for Set Cover(SC) problem with edge density 0.05 (SC_0.05) run:
 * ` python scripts/Cont_generate_instances.py setcover_densize --density 0.05`
 
 Similarly can be done for other set cover datasets
@@ -36,7 +36,7 @@ Similarly can be done for other set cover datasets
 
 
 
-For Indset with affinity 4 and number of nodes 750 use
+For Indset(IS) with affinity 4 and number of nodes 750 use
 * `python scripts/Cont_generate_instances.py indsetnewba --affinity 4 --indnodes 750` 
 
 For other affinities and size for IndSet:
